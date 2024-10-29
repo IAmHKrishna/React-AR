@@ -1,0 +1,39 @@
+{
+  "name": "mixing-html-and-webgl-w-occlusion",
+  "version": "1.0.0",
+  "description": "Having HTML and WebGL in the same scene with the addition of occlusion.",
+  "keywords": [
+    "occlusion",
+    "drei",
+    "html"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@headlessui/react": "1.4.0",
+    "@heroicons/react": "1.0.6",
+    "@mediapipe/tasks-vision": "^0.10.17",
+    "@pmndrs/branding": "^0.0.8",
+    "@react-spring/web": "^9.7.5",
+    "@react-three/drei": "^9.115.0",
+    "@react-three/fiber": "8.13.3",
+    "@react-three/xr": "^6.2.16",
+    "framer-motion": "10.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.169.0",
+    "valtio": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
